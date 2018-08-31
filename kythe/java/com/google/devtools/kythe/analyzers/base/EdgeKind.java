@@ -32,6 +32,8 @@ public enum EdgeKind {
   REF_DOC(true, "ref/doc"),
   REF_FILE(true, "ref/file"),
   REF_IMPORTS(true, "ref/imports"),
+  REF_INIT(true, "ref/init"),
+  REF_INIT_IMPLICIT(true, "ref/init/implicit"),
 
   ALIASES("aliases"),
   ANNOTATED_BY("annotatedby"),
